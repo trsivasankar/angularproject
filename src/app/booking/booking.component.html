@@ -1,0 +1,93 @@
+<!-- main app container -->
+<div class="container">
+    <div class="row">
+
+        <div class="col-md-8">
+            <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+                <div class="form-row">                   
+                    <div class="form-group col-6">
+                        <label>First Name</label>
+                        <input type="text" formControlName="firstName" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.firstName.errors }" />
+                        <div *ngIf="submitted && f.firstName.errors" class="invalid-feedback">
+                            <div *ngIf="f.firstName.errors.required">First Name is required</div>
+                        </div>
+                    </div>
+                    <div class="form-group col-6">
+                        <label>Last Name</label>
+                        <input type="text" formControlName="lastName" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.lastName.errors }" />
+                        <div *ngIf="submitted && f.lastName.errors" class="invalid-feedback">
+                            <div *ngIf="f.lastName.errors.required">Last Name is required</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-6">
+                        <label>Movie Time</label>
+                        <select formControlName="movietime" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.movietime.errors }">
+                            <option value=""></option>
+                            <option value="10:30">10:30</option>
+                            <option value="3:00">3:00</option>
+                            <option value="6:30">6:30</option>
+                            <option value="9:45">9:45</option>
+                        </select>
+                        <div *ngIf="submitted && f.movietime.errors" class="invalid-feedback">
+                            <div *ngIf="f.movietime.errors.required">Please Select Movie Timing </div>
+                        </div>
+                    </div>                
+                    <div class="form-group col-6">
+                        <label>Phone</label>
+                        <input type="number" formControlName="phone" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.phone.errors }" />
+                        <div *ngIf="submitted && f.phone.errors" class="invalid-feedback">
+                            <div *ngIf="f.phone.errors.required">Phone Number is required</div>
+                          
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-6">
+                        <label>Email</label>
+                        <input type="text" formControlName="email" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.email.errors }" />
+                        <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+                            <div *ngIf="f.email.errors.required">Email is required</div>
+                            <div *ngIf="f.email.errors.email">Email must be a valid email address</div>
+                        </div>
+                    </div>
+
+                    <div class="form-group col-6">
+                        <label>Date</label>
+                        <input type="date" formControlName="date" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.date.errors }" />
+                        <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+                            <div *ngIf="f.date.errors.required">Date is required</div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                <div class="form-group col-6">
+                    <label>No of Seats</label>
+                    <input type="number" formControlName="seats" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.seats.errors }" />
+                    <div *ngIf="submitted && f.seats.errors" class="invalid-feedback">
+                        <div *ngIf="f.seats.errors.required">No of Seats is required</div>
+                      
+                    </div>
+                </div>
+                
+                
+            </div>
+            <div class="form-group form-check ">
+                <input type="checkbox" formControlName="acceptTerms" id="acceptTerms" class="form-check-input" [ngClass]="{ 'is-invalid': submitted && f.acceptTerms.errors }" />
+                <label for="acceptTerms" class="form-check-label">Accept Terms & Conditions</label>
+                <div *ngIf="submitted && f.acceptTerms.errors" class="invalid-feedback">Accept Ts & Cs is required</div>
+            </div>
+                <div class="text-center">
+                    <button class="btn btn-primary mr-1">Register</button>
+                    <button class="btn btn-secondary" type="reset" (click)="onReset()">Cancel</button>
+                </div>
+            </form>
+            
+            
+        </div>
+
+    </div>
+
+</div>

@@ -1,0 +1,22 @@
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <ngb-carousel #carousel [interval]="3000" (slide)="onSlide($event)">
+                <ng-template ngbSlide *ngFor="let courses of course">
+                  
+                  <a  target="_blank" rel="nofollow noopener noreferrer">
+                    <div class="picsum-img-wrapper">
+                      <img [src]="courses.images[0].img" alt="">
+                    </div>
+                  </a>
+                </ng-template>
+              </ngb-carousel>
+
+        </div>
+
+    </div>
+
+
+</div>
+

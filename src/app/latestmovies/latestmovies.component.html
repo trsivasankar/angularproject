@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row">
+        
+            <div class="card" *ngFor="let movie of moviesList" >
+                <img src={{movie.imageUrl}} alt={{movie.imageUrl}}/> 
+                        <div class="card-body">
+                        <h5 class="card-title">{{movie.name}}</h5>
+                        <p class="card-text">{{movie.language}}</p>
+                        <button class="btn btn-primary" (click)="movieDetails(movie)" >Book Now</button>
+                        
+                        </div>
+                </div>
+       
+
+
+    </div>
+
+</div>

@@ -1,0 +1,141 @@
+{
+  "upcomingMovies": [
+    {
+      "id": "5ab12612f36d2879268f284a",
+      "name": "Black Panther",
+      "language": "ENGLISH",
+      "rate": 4.5,
+      "type": "Action Adventure Fantasy",
+      "imageUrl": "https://image.ibb.co/f0hhZc/bp.jpg"
+    },
+    {
+      "id": "5ab12666f36d2879268f2902",
+      "name": "Death Wish",
+      "language": "ENGLISH",
+      "type": "Action Crime Thriller",
+      "rate": 3.2,
+      "imageUrl": "https://image.ibb.co/gC9PfH/dw.jpg"
+    },
+    {
+      "id": "5ab12678f36d2879268f291d",
+      "name": "Coco",
+      "language": "ENGLISH",
+      "type": "Adventure Animation Family",
+      "rate": 5,
+      "imageUrl": "https://image.ibb.co/dQwWSx/coco.jpg"
+    }
+  ],
+  "latestMovies": [
+    {
+      "id": "5ab126b6f36d2879268f2943",
+      "name": "Avengers",
+      "language": "ENGLISH",
+      "type": "Actione",
+      "rate": 2,
+      "imageUrl": "https://i.ibb.co/0QPwyfK/first.jpg"
+    },
+    {
+      "id": "5ab4e66b0c1d2b27846c6407",
+      "name": "Black Friday",
+      "language": "ENGLISH",
+      "rate": 4.5,
+      "type": "Action Adventure Fantasy",
+      "imageUrl": "https://image.ibb.co/f0hhZc/bp.jpg"
+    }
+  ],
+  "events": [
+    {
+      "_id": "5ab126b6f36d2879268f2943",
+      "name": "Avengers",
+      "language": "ENGLISH",
+      "type": "Actione",
+      "rate": 2,
+      "imageUrl": "https://i.ibb.co/0QPwyfK/first.jpg"
+    },
+    {
+      "_id": "5ab4e66b0c1d2b27846c6407",
+      "name": "Black Friday",
+      "language": "ENGLISH",
+      "rate": 4.5,
+      "type": "Action Adventure Fantasy",
+      "imageUrl": "https://image.ibb.co/f0hhZc/bp.jpg"
+    }
+  ],
+  "ticketbooked": [
+    
+  ],
+  "galleries": [
+    {
+      "id": 1,
+      "artist": "Ariana Grande",
+      "title": "Lorem ipsum dolor sit amet",
+      "images": [
+        {
+          "img": "https://i.ibb.co/NS1p9zf/1-1.jpg",
+          "desc": "Quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+        },
+        {
+          "img": "",
+          "desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae"
+        },
+        {
+          "img": "",
+          "desc": "magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit"
+        }
+      ],
+      "views": 237,
+      "likes": [
+        18,
+        13
+      ]
+    },
+    {
+      "id": 2,
+      "artist": "Matt Damon",
+      "title": "Lorem ipsum dolor sit amet",
+      "images": [
+        {
+          "img": "https://i.ibb.co/rFzCB31/2-1.jpg",
+          "desc": "Quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+        },
+        {
+          "img": "2_2.jpg",
+          "desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae"
+        },
+        {
+          "img": "2_3.jpg",
+          "desc": "magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit"
+        }
+      ],
+      "views": 237,
+      "likes": [
+        13,
+        10
+      ]
+    },
+    {
+      "id": 3,
+      "artist": "Matt Damon",
+      "title": "Lorem ipsum dolor sit amet",
+      "images": [
+        {
+          "img": "https://i.ibb.co/D8fh5JK/3-1.jpg",
+          "desc": "Quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+        },
+        {
+          "img": "2_2.jpg",
+          "desc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae"
+        },
+        {
+          "img": "2_3.jpg",
+          "desc": "magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit"
+        }
+      ],
+      "views": 237,
+      "likes": [
+        13,
+        10
+      ]
+    }
+  ]
+}
